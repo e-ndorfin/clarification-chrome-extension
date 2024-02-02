@@ -1,6 +1,6 @@
 # Quiz me!
 
-Quiz me! is an Chrome extension which allows user to ask questions about selected text. It implements the [https://huggingface.co/timpal0l/mdeberta-v3-base-squad2](timpal0l/mdeberta-v3-base-squad2) question-answering Hugging Face transformer.
+Quiz me! is an Chrome extension which allows user to ask questions about selected text. It implements the [timpal0l/mdeberta-v3-base-squad2](https://huggingface.co/timpal0l/mdeberta-v3-base-squad2) question-answering Hugging Face transformer.
 
 ## Installation
 
