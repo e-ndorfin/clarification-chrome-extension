@@ -1,6 +1,6 @@
 # Quiz me!
 
-Quiz me! is an Chrome extension which allows user to ask questions about selected text. 
+Quiz me! is an Chrome extension which allows user to ask questions about selected text. It implements the [timpal0l/mdeberta-v3-base-squad2] (https://huggingface.co/timpal0l/mdeberta-v3-base-squad2) question-answering Hugging Face transformer.
 
 ## Installation
 
@@ -10,17 +10,20 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install require
 pip install -r requirements.txt
 ```
 
-Then install the Chrome extension. 
+Then install the Chrome extension.
+
 1. Download this repo as a [ZIP file from GitHub](https://github.com/e-ndorfin/quiz-me/archive/refs/heads/main.zip).
-2. Unzip the file and find the quiz-me-extension folder. 
+2. Unzip the file and find the quiz-me-extension folder.
 3. In Chrome go to the extensions page ([chrome://extensions](chrome://extensions)).
 4. Enable Developer Mode.
 5. Drag the quiz-me-extension folder anywhere on the page to import it (do not delete the folder afterwards).
 
 ## Usage
 
-Run the Flask app. 
+Run the Flask app.
+
 ```bash
-python flask_chatbot/app.py 
+python flask_chatbot/app.py
 ```
-Then highlight text on any website, right click, and click on the Quiz me! option. You can then ask the chatbot questions about the content. 
+
+Then highlight text on any website, right click, and click on the Quiz me! option. You can then ask the chatbot questions about the content. The first time may take time as it will download the Hugging Face model.

@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Selection summarizer",
+    "description": "An extension to quiz yourself using the selected text",
+    "version": "1.0",
+    "permissions": ["contextMenus"],
+    "host_permissions": ["http://127.0.0.1:5000/*"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
